@@ -1,5 +1,6 @@
 package karlmc.karlmcmod;
 
+import karlmc.karlmcmod.core.init.BlockInit;
 import karlmc.karlmcmod.core.init.ItemInit;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -23,7 +24,7 @@ import java.util.stream.Collectors;
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(ChildAbuseMod.modid)
 public class ChildAbuseMod {
-    public static final Logger LOGGER = LogManager.getLogger();
+    public static final Logger logger = LogManager.getLogger();
     public static final String modid = "vast_lordys_funny_mod";
 
     public ChildAbuseMod() {
@@ -32,6 +33,7 @@ public class ChildAbuseMod {
         bus.addListener(this::setup);
 
         ItemInit.items.register(bus);
+        BlockInit.blocks.register(bus);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);

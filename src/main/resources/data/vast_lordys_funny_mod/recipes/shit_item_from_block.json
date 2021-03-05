@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "vast_lordys_funny_mod:shit_block"
+    }
+  ],
+  "result":
+  {
+    "item": "vast_lordys_funny_mod:shit_item",
+    "count": 9
+  }
+}
