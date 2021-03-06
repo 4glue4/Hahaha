@@ -1,5 +1,5 @@
-Args: "--inJar", "/Users/karl/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.16.4-35.1.4/forge-1.16.4-35.1.4-injected.jar", "--outJar", "/Users/karl/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.16.4-35.1.4_mapped_snapshot_20201028-1.16.3/forge-1.16.4-35.1.4_mapped_snapshot_20201028-1.16.3.jar", "--logFile", "accesstransform.log", "--atFile", "/Users/karl/Desktop/Hahaha/build/_atJar_5/parent_at.cfg"
-Classpath: /Users/karl/.gradle/caches/forge_gradle/maven_downloader/net/minecraftforge/accesstransformers/1.0.5/accesstransformers-1.0.5-fatjar.jar
-WorkDir: /Users/karl/Desktop/Hahaha/build/_atJar_5
+Args: "--inJar", "C:\Users\Karl\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.4-35.1.4\forge-1.16.4-35.1.4-injected.jar", "--outJar", "C:\Users\Karl\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.4-35.1.4_mapped_snapshot_20201028-1.16.3\forge-1.16.4-35.1.4_mapped_snapshot_20201028-1.16.3.jar", "--logFile", "accesstransform.log", "--atFile", "C:\Users\Karl\IdeaProjects\Hahaha\build\_atJar_5\parent_at.cfg"
+Classpath: C:\Users\Karl\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\accesstransformers\1.0.5\accesstransformers-1.0.5-fatjar.jar
+WorkDir: C:\Users\Karl\IdeaProjects\Hahaha\build\_atJar_5
 Main: net.minecraftforge.accesstransformer.TransformerProcessor
 ====================================

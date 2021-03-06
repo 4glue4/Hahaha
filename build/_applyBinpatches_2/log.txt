@@ -1,15 +1,15 @@
-Args: "--clean", "/Users/karl/.gradle/caches/forge_gradle/mcp_repo/net/minecraft/joined/1.16.4-20201102.104115/joined-1.16.4-20201102.104115-srg.jar", "--output", "/Users/karl/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.16.4-35.1.4/forge-1.16.4-35.1.4-binpatched.jar", "--apply", "/Users/karl/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.16.4-35.1.4/forge-1.16.4-35.1.4-binpatches.lzma"
-Classpath: /Users/karl/.gradle/caches/forge_gradle/maven_downloader/net/minecraftforge/binarypatcher/1.0.12/binarypatcher-1.0.12-fatjar.jar
-WorkDir: /Users/karl/Desktop/Hahaha/build/_applyBinpatches_2
+Args: "--clean", "C:\Users\Karl\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\joined\1.16.4-20201102.104115\joined-1.16.4-20201102.104115-srg.jar", "--output", "C:\Users\Karl\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.4-35.1.4\forge-1.16.4-35.1.4-binpatched.jar", "--apply", "C:\Users\Karl\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.4-35.1.4\forge-1.16.4-35.1.4-binpatches.lzma"
+Classpath: C:\Users\Karl\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\binarypatcher\1.0.12\binarypatcher-1.0.12-fatjar.jar
+WorkDir: C:\Users\Karl\IdeaProjects\Hahaha\build\_applyBinpatches_2
 Main: net.minecraftforge.binarypatcher.ConsoleTool
 ====================================
 Applying: 
-  Clean:     /Users/karl/.gradle/caches/forge_gradle/mcp_repo/net/minecraft/joined/1.16.4-20201102.104115/joined-1.16.4-20201102.104115-srg.jar
-  Output:    /Users/karl/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.16.4-35.1.4/forge-1.16.4-35.1.4-binpatched.jar
+  Clean:     C:\Users\Karl\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\joined\1.16.4-20201102.104115\joined-1.16.4-20201102.104115-srg.jar
+  Output:    C:\Users\Karl\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.4-35.1.4\forge-1.16.4-35.1.4-binpatched.jar
   KeepData:  false
   Unpatched: false
-  Patches:   /Users/karl/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.16.4-35.1.4/forge-1.16.4-35.1.4-binpatches.lzma
-Loading patches file: /Users/karl/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.16.4-35.1.4/forge-1.16.4-35.1.4-binpatches.lzma
+  Patches:   C:\Users\Karl\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.4-35.1.4\forge-1.16.4-35.1.4-binpatches.lzma
+Loading patches file: C:\Users\Karl\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.4-35.1.4\forge-1.16.4-35.1.4-binpatches.lzma
   Reading patch com.mojang.blaze3d.platform.GlStateManager$1.binpatch
     Checksum: 37bccb56 Exists: true
   Reading patch com.mojang.blaze3d.platform.GlStateManager$AlphaState.binpatch
@@ -2410,7 +2410,7 @@ Loading patches file: /Users/karl/.gradle/caches/forge_gradle/minecraft_user_rep
     Checksum: 531d664c Exists: true
   Reading patch net.minecraft.world.storage.WorldSavedData.binpatch
     Checksum: f3fb0286 Exists: true
-Processing: /Users/karl/.gradle/caches/forge_gradle/mcp_repo/net/minecraft/joined/1.16.4-20201102.104115/joined-1.16.4-20201102.104115-srg.jar
+Processing: C:\Users\Karl\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\joined\1.16.4-20201102.104115\joined-1.16.4-20201102.104115-srg.jar
   Patching net/minecraft/block/VineBlock$1 1/1
   Patching net/minecraft/block/WebBlock 1/1
   Patching net/minecraft/block/VineBlock 1/1
