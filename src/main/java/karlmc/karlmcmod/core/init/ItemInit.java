@@ -1,26 +1,28 @@
 package karlmc.karlmcmod.core.init;
 
 import karlmc.karlmcmod.ChildAbuseMod;
-import net.minecraft.item.BlockItem;
-import net.minecraft.item.Food;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
+import karlmc.karlmcmod.common.Items.BasicItems;
+import net.minecraft.entity.EntityType;
+import net.minecraft.item.*;
+import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
 public class ItemInit {
 
-    public static final DeferredRegister<Item> items = DeferredRegister.create(ForgeRegistries.ITEMS,
-            ChildAbuseMod.modid);
-
-    // Food
-    public static final RegistryObject<Item> shit_item = items.register("shit_item",
-            () -> new Item(new Item.Properties().group(ItemGroup.FOOD)
-                    .food(new Food.Builder().hunger(4).saturation(0.3f).setAlwaysEdible().fastToEat().build())));
+    public static final DeferredRegister<Item> items = DeferredRegister.create(ForgeRegistries.ITEMS, ChildAbuseMod.modid);
 
     // Block Items
-    public static final RegistryObject<BlockItem> shit_block = items.register("shit_block",
-            () -> new BlockItem(BlockInit.shit_block.get(), new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> shit_block = items.register("shit_block", () -> BasicItems.shit_block);
+    public static final RegistryObject<BlockItem> cum_block = items.register("shit_block", () -> BasicItems.cum_block);
+    public static final RegistryObject<BlockItem> cum_ore_block = items.register("cum_ore_block", () -> BasicItems.cum_ore_block);
+
+    // Materials
+    public static final RegistryObject<Item> shit_item = items.register("shit_item", () -> BasicItems.shit_item);
+    public static final RegistryObject<Item> cum_item = items.register("cum_item", () -> BasicItems.cum_item);
+
+    // Spawn Eggs
+    //public static final RegistryObject<SpawnEggItem> spawn_child = items.register("spawn_child", () -> BasicItems.spawn_child);
 
 }

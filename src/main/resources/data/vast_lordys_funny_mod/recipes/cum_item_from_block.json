@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "vast_lordys_funny_mod:cum_block"
+    }
+  ],
+  "result":
+  {
+    "item": "vast_lordys_funny_mod:cum_item",
+    "count": 9
+  }
+}

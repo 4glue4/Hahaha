@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "###",
+    "###",
+    "###"
+  ],
+  "key":
+  {
+    "#":
+    {
+      "item": "vast_lordys_funny_mod:cum_item"
+    }
+  },
+  "result":
+  {
+    "item": "vast_lordys_funny_mod:cum_block"
+  }
+}

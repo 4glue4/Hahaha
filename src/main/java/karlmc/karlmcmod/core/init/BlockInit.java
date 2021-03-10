@@ -1,6 +1,7 @@
 package karlmc.karlmcmod.core.init;
 
 import karlmc.karlmcmod.ChildAbuseMod;
+import karlmc.karlmcmod.common.Blocks.BasicBlocks;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
@@ -13,14 +14,10 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 public class BlockInit {
 
-    public static final DeferredRegister<Block> blocks = DeferredRegister.create(ForgeRegistries.BLOCKS,
-            ChildAbuseMod.modid);
+    public static final DeferredRegister<Block> blocks = DeferredRegister.create(ForgeRegistries.BLOCKS, ChildAbuseMod.modid);
 
-    public static final RegistryObject<Block> shit_block = blocks.register("shit_block",
-            () -> new Block(AbstractBlock.Properties.create(Material.SNOW_BLOCK, MaterialColor.SNOW)
-                    .hardnessAndResistance(0.2f)
-                    .harvestLevel(-1)
-                    .sound(SoundType.SLIME)
-                    ));
+    public static final RegistryObject<Block> shit_block = blocks.register("shit_block", () -> BasicBlocks.shit_block);
+    public static final RegistryObject<Block> cum_block = blocks.register("cum_block", () -> BasicBlocks.cum_block);
+    public static final RegistryObject<Block> cum_ore_block = blocks.register("cum_ore", () -> BasicBlocks.cum_ore_block);
 
 }
