@@ -1,7 +1,7 @@
 package karlmc.karlmcmod.core.init;
 
 import karlmc.karlmcmod.ChildAbuseMod;
-import karlmc.karlmcmod.common.Items.BasicItems;
+import karlmc.karlmcmod.common.items.BasicItems;
 import net.minecraft.entity.EntityType;
 import net.minecraft.item.*;
 import net.minecraft.util.ResourceLocation;

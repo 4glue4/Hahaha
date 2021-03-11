@@ -1,8 +1,8 @@
-package karlmc.karlmcmod.common.Items;
+package karlmc.karlmcmod.common.items;
 
 
 import karlmc.karlmcmod.ChildAbuseMod;
-import karlmc.karlmcmod.common.Blocks.BasicBlocks;
+import karlmc.karlmcmod.common.blocks.BasicBlocks;
 import karlmc.karlmcmod.core.init.BlockInit;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Food;

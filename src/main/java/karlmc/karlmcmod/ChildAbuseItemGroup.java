@@ -3,6 +3,7 @@ package karlmc.karlmcmod;
 import karlmc.karlmcmod.core.init.ItemInit;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
+import org.jetbrains.annotations.NotNull;
 
 import java.util.function.Supplier;
 
@@ -13,7 +14,7 @@ public class ChildAbuseItemGroup extends ItemGroup {
     }
 
     @Override
-    public ItemStack createIcon() {
+    public @NotNull ItemStack createIcon() {
         return new ItemStack(ItemInit.shit_item.get());
     }
 }

@@ -1,4 +1,4 @@
-package karlmc.karlmcmod.common.EntityTypes;
+package karlmc.karlmcmod.common.entities;
 
 import net.minecraft.entity.passive.AnimalEntity;
 

@@ -1,7 +1,7 @@
 package karlmc.karlmcmod.core.init;
 
 import karlmc.karlmcmod.ChildAbuseMod;
-import karlmc.karlmcmod.common.Blocks.BasicBlocks;
+import karlmc.karlmcmod.common.blocks.BasicBlocks;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;

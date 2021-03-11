@@ -1,6 +1,6 @@
 package karlmc.karlmcmod.core.world;
 
-import karlmc.karlmcmod.common.Blocks.BasicBlocks;
+import karlmc.karlmcmod.common.blocks.BasicBlocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.gen.GenerationStage;

@@ -1,4 +1,4 @@
-package karlmc.karlmcmod.common.Blocks;
+package karlmc.karlmcmod.common.blocks;
 
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
